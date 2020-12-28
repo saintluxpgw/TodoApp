@@ -1,0 +1,80 @@
+.form,
+.greeting_form,
+.greetings {
+  display: none;
+}
+
+.showing {
+  display: block;
+}
+
+.greeting_form input,
+.greeting_form input::placeholder {
+  text-align: center;
+}
+
+.greetings {
+  font-size: 40px;
+}
+
+.clock {
+  margin-top: 200px;
+  position: absolute;
+  left: 10px;
+}
+
+.ampm {
+  font-size: 50px;
+  margin-right: 5px;
+  margin-left: 18px;
+}
+
+.time {
+  font-size: 120px;
+  word-spacing: -18px;
+  letter-spacing: -5px;
+}
+
+.greeting_form,
+.greetings,
+.weather {
+  position: relative;
+}
+
+.greeting_form,
+.greetings {
+  top: 360px;
+}
+
+.weather {
+  top: 500px;
+  display: flex;
+  align-items: center;
+}
+
+.weather_icon {
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.wi {
+  font-size: 60px;
+}
+
+.weather_info {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-left: 13px;
+}
+
+.temp {
+  font-size: 34px;
+  margin-bottom: 6px;
+}
+
+.place {
+  font-size: 20px;
+}

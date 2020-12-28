@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/index.css">
+    <title>Momentum</title>
+</head>
+<body>
+    <div class="body_column">
+        <div class="js-clock clock">
+        <h1>
+            <span class="js-ampm ampm">am/pm</span>
+            <span class="js-time time">00:00</span>
+        </h1>
+        </div>
+        <form class="js-form greeting_form">
+        <input type="text" placeholder="What is your name?">
+        </form>
+        <h4 class="js-greetins greetings"></h4>
+        <div class="weather">
+        <div class="js-weather_icon weather_icon">
+        </div>
+        <div class="js-weather weather_info">
+        </div>
+        </div>
+    </div>
+
+    <div class="body_column todo_column">
+    <form class="js-toDoForm toDoForm">
+        <input type="text" placeholder="Write a to do">
+    </form>
+    <div class="list-title">Active</div>
+    <ul class="js-toDoList toDoList"></ul>
+    <div class="list-title">Completed</div>
+    <ul class="js-checkedToDoList checked"></ul>
+    <div class="clear"><span class="js-clear-button">Clear Completed</span></div>
+    </div>
+
+    <footer>
+        &copy; SAINTLUXPGW
+    </footer>
+    <script src="clock.js"></script>
+    <script src="greeting.js"></script>
+    <script src="todo.js"></script>
+    <script src="bg.js"></script>
+    <script src="weatherAPI.js"></script>
+    <script src="weather.js"></script>
+    <script
+      src="https://kit.fontawesome.com/6478f529f2.js"
+      crossorigin="anonymous"
+    ></script>
+</body>
+</html>

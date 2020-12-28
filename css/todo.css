@@ -1,0 +1,105 @@
+.toDoForm input,
+li {
+  width: 360px;
+}
+
+.toDoForm {
+  margin-top: 20px;
+}
+
+.toDoForm input::placeholder {
+  font-size: 20px;
+}
+
+.todo_column {
+  background-color: rgba(0, 0, 0, 0.4);
+  border-radius: 20px;
+  box-sizing: border-box;
+}
+
+ul {
+  margin: 20px;
+  padding-inline-start: 0px;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+li {
+  list-style: none;
+  display: flex;
+  position: relative;
+  align-items: center;
+  background-color: rgba(255, 255, 255, 0.6);
+  padding: 20px 16px;
+  border-radius: 6px;
+  margin-bottom: 4px;
+  color: black;
+  font-size: 18px;
+  animation: fadeIn 0.5s ease-in;
+}
+
+li span {
+  margin-left: 10px;
+  font-size: 20px;
+}
+
+.checked li {
+  opacity: 0.7;
+}
+
+.checked .fa-check-square {
+  color: tomato;
+}
+
+#delBtn {
+  border: none;
+  position: absolute;
+  text-decoration: none;
+  right: 20px;
+}
+
+#strikeout {
+  height: 2px;
+  width: 79%;
+  background-color: tomato;
+  position: absolute;
+  left: 38px;
+}
+
+.fa-square,
+.fa-check-square,
+#delBtn,
+.clear span:hover {
+  cursor: pointer;
+}
+
+.toDoList,
+.checked {
+  margin: 10px;
+}
+
+.list-title {
+  width: 80%;
+  display: flex;
+  justify-content: flex-start;
+  font-size: 15px;
+  margin: 15px 0px 0px 0px;
+}
+
+.clear {
+  display: flex;
+  width: 80%;
+  justify-content: flex-end;
+  font-size: 15px;
+}
+
+.clear span:hover {
+  cursor: ;
+}
