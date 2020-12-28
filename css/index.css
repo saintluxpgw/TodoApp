@@ -72,3 +72,9 @@ input:focus {
   font-weight: bold;
 }
 */
+
+#footer {
+  position: absolute;
+  bottom: 5%;
+  color: aliceblue;
+}
